@@ -1,0 +1,27 @@
+Package: emc2
+Type: Package
+Title: Utilities functions for creating machine learning experiments
+Version: 0.1.0
+Author: person("Matthew", "Coad", email = "matthew_coad@hotmail.com",
+  role = c("aut", "cre")
+Maintainer: Matthew Coad <matthew_coad@hotmail.com>
+Description: Utilitites for the creation and viewing of machine learning
+    experiments based around data frames.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: rlang,
+    dplyr,
+    caret,
+    e1071,
+    lubridate,
+    purrr,
+    tibble,
+    evaluate,
+    magrittr,
+    stats,
+    doParallel,
+    parallel
+Suggests: testthat,
+    mlbench
+RoxygenNote: 6.1.0
